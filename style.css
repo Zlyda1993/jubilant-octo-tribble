@@ -1,0 +1,58 @@
+header{
+    text-align: Center;
+    border: 10px;
+    color: white;
+    background: radial-gradient(rgb(3, 134, 158), blue);
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 170%;
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+button{
+    width: 100%;
+}
+
+.searchCity{
+    margin: 0 10px 0 10px;
+}
+
+ul button{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px;
+    width: 100%;
+}
+
+.card-container {
+    flex: 1; 
+    padding: 10px;
+    overflow-y: auto; 
+    max-height: 400px; 
+}
+
+#card {
+    width: 300px;
+    margin: 20px;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(52, 52, 52);
+    right: 42px;
+}
+
+#current{
+    width: 948px;
+    padding: 10px;
+}
+
+.card-body{
+    padding: 20px 40px 20px 20px;
+}
